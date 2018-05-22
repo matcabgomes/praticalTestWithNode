@@ -1,0 +1,36 @@
+{
+  "name": "teste_pratico_cenario1",
+  "version": "1.0.0",
+  "description": "Teste para processo seletivo",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belld14/teste_pratico_cenario1.git"
+  },
+  "keywords": [
+    "node",
+    "API",
+    "REST",
+    "Docker"
+  ],
+  "author": "Matheus Gomes Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/belld14/teste_pratico_cenario1/issues"
+  },
+  "homepage": "https://github.com/belld14/teste_pratico_cenario1#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "nodemon": "^1.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^5.0.1"
+  }
+}
